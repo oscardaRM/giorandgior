@@ -54,10 +54,46 @@ var scene = new ScrollMagic.Scene({triggerElement: "#trigger1"})
 var scene2 = new ScrollMagic.Scene({triggerElement: "#trigger1"})
 .setClassToggle("#txt-pedido", "bounceInRight")
 .addTo(controller);
-
-
 //END SCROLL MAGIC
 
+$(".promo").mouseenter(function(){
+    $(this).find('img').addClass('tada');
+    $(this).find('.num-promo').addClass('tada');
+});
+
+$(".promo").mouseleave(function(){
+    $(this).find('img').removeClass('tada');
+    $(this).find('.num-promo').removeClass('tada');
+});
+
+$('.item-familia').mouseenter(function(){
+    $(this).find('img').addClass('pulse');
+});
+
+$('.item-familia').mouseleave(function(){
+    $(this).find('img').removeClass('pulse');
+});
 
 
 });
+
+
+function initMap() {
+  // The location of Uluru
+  var ptoAereo = {lat: 19.433221, lng: -99.089326};
+  var aragon = {lat: 19.457147, lng: -99.068936};
+  var snJose = {lat: 19.370806, lng: -99.186093};
+  var icon = {
+    url: '../gior-dev/img/home/Pizza.png', // url
+    scaledSize: new google.maps.Size(50, 50), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 12, center: ptoAereo});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: ptoAereo, map: map, icon:icon});
+  var marker2 = new google.maps.Marker({position: aragon, map: map, icon:icon});
+  var marker3 = new google.maps.Marker({position: snJose, map: map, icon:icon});
+}

@@ -83,7 +83,7 @@ body, html{
 
 .pedidos-online{
     width: 100%;
-    margin: 130px 0px;
+    padding: 130px 0px;
 }
 
 .back-texturaNaranja{
@@ -93,6 +93,7 @@ body, html{
 }
 
 .cont-pedidos-online{
+    max-width: 1180px;
     width: 80%;
     margin: 0px auto;
     position: relative;
@@ -153,7 +154,204 @@ body, html{
     border-radius: 5px;
 }
 
+.width100{
+    width: 100%;
+}
 
+.mbottom30{
+    margin-bottom: 30px;
+}
 
+.cont-menu{
+    max-width: 1180px;
+    width: 80%;
+    background-image: url('../img/home/menu.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px auto;
+    margin-top: 50px;
+    height: 550px;
+    text-align:center;
+}
+
+.cont-txt-menu{
+    padding: 15px 0px;
+}
+
+.cont-txt-menu span{
+    font-family: hillbear;
+    font-size: 210px;
+    color: #fff;
+    display: block;
+    margin-bottom: 30px;
+    line-height: 0.6;
+}
+
+.cont1180{
+    width: 80%;
+    max-width: 1180px;
+    margin:0px auto;
+
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-section{
+    width: 80%;
+    margin:0px auto;
+    text-align: center;
+}
+
+.fs110{
+    font-size:110px;
+}
+
+.sucursal{
+    padding: 25px 10px;
+    text-align: center;
+    width: 30%;
+}
+
+.m40{
+    margin: 40px 0px;
+}
+
+.naranja{
+    color:#FF571F;
+}
+
+.fs20{
+    font-size: 20px;
+}
+
+.dblock{
+    display: block;
+}
+
+.m10{
+    margin:10px 0px;
+}
+
+.bold{
+    font-weight: 900;
+}
+
+.semi-bold{
+    font-weight: 700;
+}
+
+.cont-mapa{
+    height: 600px;
+}
+
+.border-sides{
+    border-left: 2px solid #292C2F;
+    border-right: 2px solid #292C2F; 
+}
+
+.promo{
+    padding: 45px 10px;
+    text-align: center;
+    position: relative;
+}
+
+.num-promo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background: #FF571F;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-weight: 900;
+    font-size: 60px;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    top: -5px;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    z-index: 100;
+}
+
+.promo figure img{
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+.pd30{
+    padding: 30px 0px;
+}
+
+.lapasticheria{
+    background: url('../img/home/pasticheria.png');
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.item-familia{
+    padding: 10px 10px;
+    text-align: center;
+    position: relative;
+}
+
+.item-familia figure img{
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+.wrap{
+   flex-wrap: wrap;
+}
+
+footer{
+    background: #292C2F;
+    text-align: center;
+}
+
+.pd50{
+    padding: 50px 0px;
+}
+
+.menu-footer{
+    display:block;
+    padding: 10px 0px;
+}
+
+.menu-footer li{
+    display: inline;
+}
+
+.menu-footer li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color:#fff;
+}
+
+.cont-footer figure{
+    display: block;
+}
+
+.blanco{
+    color:#fff;
+}
+
+.fs15{
+    font-size: 15px;
+}
 
 
