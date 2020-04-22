@@ -220,6 +220,11 @@ body, html{
     width: 30%;
 }
 
+.sucursal a{
+    text-decoration: none;
+    color: #000;
+}
+
 .m40{
     margin: 40px 0px;
 }
@@ -300,6 +305,9 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .item-familia{
@@ -352,6 +360,64 @@ footer{
 
 .fs15{
     font-size: 15px;
+}
+
+.servicios-pasticheria{
+    max-width: 1140px;
+    width:80%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    flex-wrap: wrap;
+}
+
+.servicio-pasticheria{
+    width: 30%;
+    border: 3px dashed #FF571F;
+    margin: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    flex-direction: column;
+    min-height: 208px;
+}
+
+.icon-top{
+    position: absolute;
+    top: -60px;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+.icon-top-small{
+    top:-30px !important;
+}
+
+.cont-info-pasticheria{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.btn-orange{
+    padding: 5px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background: #FF571F;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.mtop10{
+    margin-top: 10px;
 }
 
 

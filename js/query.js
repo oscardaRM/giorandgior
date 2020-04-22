@@ -1,4 +1,19 @@
 $(document).ready(function(){
+
+  //SLIDE ANCLA
+   $('.ancla').click(function(){
+        $('.list-menu').hide();
+        $('.header-menu').css('width', '0px');
+        $('#nav-icon2').fadeIn();
+
+        var link = $(this);
+        var anchor  = link.attr('href');
+        $('html, body').stop().animate({
+            scrollTop: jQuery(anchor).offset().top
+        }, 2000);
+        return false;
+    });
+
     //MENU
     $('#nav-icon2').click(function(){
         //$(this).toggleClass('open');
@@ -23,6 +38,7 @@ $(document).ready(function(){
         nav:false,
         margin:0,
         singleItem:true,
+        autoHeight: true,
         stagePadding: 0,
         responsive:{
             0:{
